@@ -1,10 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta encoding="utf-8">
-    <title>Ma première page web</title>
+  	<meta charset="utf-8">
+  	
+    <title>Acceuil du site</title>
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
   <body>
-    <h1>Ma première page web hébergée par GitHub</h1>
+	   <div id="main">
+	  <section id="Acceuil">
+    <h1>Bienvenue dans mon site Web</h1>
+    </section>
+    <img src="images.jpg" class="Zoro" > </img>
+    <section id="Donnesperso">
+		<h2>Mes données personnelles :</h2>
+		<dl>
+		<dt>Prénom:</dt>
+		<dd>Grégory</dd>
+		<dt>Nom:<dt> 
+		<dd>RICHOL</dd>
+		<dt>Numéro d'étudiant:</dt>
+		<dd>2130xxxx</dd>
+		</dl>
+	 </section>	
+	 <section id="Cours">
+		<h2>Mes Cours :</h2>
+		<li>BI200</li>
+		<li>MA200</li>
+		<li>IN200</li>
+		<li>IN202</li>
+		<li>AN200</li>
+		<li>Basket</li>
+		<li>Ping-Pong</li>
+	</section>
+	<section id="Loisirs">
+		<h2>Mes Loisirs : </h2>
+		<li>Gaming</li>
+		<li>Cinéma</li>
+		<li>Manga</li>
+		<li>Football</li>
+	</section>
+
+</div>
+	<nav>
+  <ul>
+    <li><a href="#Acceuil">Accueil</a>
+		<ul>
+		<li><a href="#Donnesperso">Données Personnelles</a></li>
+		<li><a href="#Cours">Mes Cours</a></li>
+		<li><a href="#Loisirs">Mes Loisirs</a></li>
+		</ul>
+	 <li><a href="file:///home/user/Bureau/cv.html">CV</a> </li> 
+	</li>
+		</ul>
+</nav>
+
+	
+<footer><p>Copyright RICHOL Grégory inc. 2015</p></footer>
+
   </body>
 </html>
